@@ -6,9 +6,7 @@
     "version": "1.0.0",
     "display_name": "LevelGeoreferencing",
     "description": "Toolset to georeference level",
-    "type": "code",
-    "id": "",
-    "copyright_text": ""
+    "type": "code"
   },
   "origin": {
     "name": "RobotecAI",
@@ -17,9 +15,8 @@
   "licenses": [
     {
       "license_identifier": "Apache-2.0",
-      "url": "https://opensource.org/licenses/Apache-2.0",
-      "display_name": "Apache 2.0",
-      "relative_path": ""
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
     }
   ],
   "canonical_tags": [
@@ -30,11 +27,9 @@
     "LevelGeoreferencing"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
     "url": "https://www.docs.o3de.org/docs/user-guide/interactivity/robotics/georeference/"
   },
   "children": {
@@ -60,7 +55,5 @@
     {
       "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/levelgeoreferencing-1.0.0-gem.zip"
     }
-  ],
-  "platforms": [],
-  "requirements": ""
+  ]
 }
