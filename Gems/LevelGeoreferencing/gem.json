@@ -1,41 +1,63 @@
 {
-  "gem_name": "LevelGeoreferencing",
-  "version": "1.0.0",
-  "display_name": "LevelGeoreferencing",
-  "license": "Apache-2.0",
-  "license_url": "https://opensource.org/licenses/Apache-2.0",
-  "origin": "RobotecAI",
-  "origin_url": "https://robotec.ai",
-  "type": "Code",
-  "summary": "Toolset to georeference level",
-  "canonical_tags": [
-    "Gem"
-  ],
-  "user_tags": [
-    "Georeferencing",
-    "LevelGeoreferencing"
-  ],
-  "platforms": [],
-  "icon_path": "preview.png",
-  "requirements": "",
-  "documentation_url": "https://www.docs.o3de.org/docs/user-guide/interactivity/robotics/georeference/",
-  "dependencies": [],
-  "compatible_engines": [
-    "o3de-sdk>=2.4.0",
-    "o3de>=2.4.0"
-  ],
-  "engine_api_dependencies": [],
-  "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
-  "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/levelgeoreferencing-1.0.0-gem.zip",
-  "releases": [
-    {
-      "name": "2607.0",
-      "source_controls": [
+    "$schemaVersion": "2.0.0",
+    "$schema": "https://canonical.o3de.org/o3de-gem-2.0.0.json",
+    "gem": {
+        "name": "org.o3de.gem.levelgeoreferencing",
+        "version": "1.0.0",
+        "display_name": "LevelGeoreferencing",
+        "description": "Toolset to georeference level",
+        "type": "code"
+    },
+    "origin": {
+        "name": "RobotecAI",
+        "url": "https://robotec.ai"
+    },
+    "licenses": [
         {
-          "git": "https://github.com/accesspointmg/org.o3de.repo.levelgeoreferencing.git",
-          "tag": "2607.0"
+            "license_identifier": "Apache-2.0",
+            "display_name": "Apache License 2.0",
+            "relative_path": "LICENSE_APACHE2.TXT"
         }
-      ]
+    ],
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Georeferencing",
+        "LevelGeoreferencing"
+    ],
+    "icon": {
+        "relative_path": "preview.png"
+    },
+    "documentation": {
+        "url": "https://www.docs.o3de.org/docs/user-guide/interactivity/robotics/georeference/"
+    },
+    "children": {
+        "engines": [],
+        "projects": [],
+        "gems": [],
+        "templates": [],
+        "repos": [],
+        "overlays": []
+    },
+    "remote": {
+        "engines": [],
+        "projects": [],
+        "gems": [],
+        "templates": [],
+        "repos": [],
+        "overlays": []
+    },
+    "dependent": {
+        "gems": []
+    },
+    "downloads": [
+        {
+            "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/levelgeoreferencing-1.0.0-gem.zip"
+        }
+    ],
+    "releases": [],
+    "source_control": {
+        "git": "https://github.com/accesspointmg/org.o3de.repo.levelgeoreferencing.git"
     }
-  ]
 }
